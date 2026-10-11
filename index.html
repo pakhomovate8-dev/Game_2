@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        iframe { width: 100%; height: 100%; border: none; }
+    </style>
+</head>
+<body>
+    <iframe src="https://fliktop.ru/pakhomovate8/playlist/cards/shot-answers/d8e721f7-606f-4255-b28c-babe9b6552bc/?open=true"></iframe>
+    <script>
+        // Отправляем ВК сигнал убрать экран загрузки
+        vkBridge.send('VKWebAppInit');
+    </script>
+</body>
+</html>
